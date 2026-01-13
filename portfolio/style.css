@@ -3,7 +3,6 @@
     margin: 0;
     text-align: center;
 }
-/* General Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -12,14 +11,12 @@ body {
  
 }
 
-/* Header */
 header {
     background-color: #333;
     color: white;
     padding: 20px;
 }
 
-/* Navigation */
 nav {
     background-color: #555;
     padding: 10px;
@@ -35,7 +32,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Sections */
 section {
     background-color: white;
     width: 80%;
@@ -44,7 +40,6 @@ section {
     border: 1px solid #ccc;
 }
 
-/* Image */
 img {
     width: 150px;
     height: 150px;
@@ -52,14 +47,12 @@ img {
     margin: 10px 0;
 }
 
-/* Project Cards */
 .project-card {
     border: 1px solid #aaa;
     padding: 15px;
     margin: 15px;
 }
 
-/* Footer */
 footer {
     background-color: #333;
     color: white;
