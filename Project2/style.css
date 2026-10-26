@@ -1,0 +1,26 @@
+.div-con{
+    border: 10px solid black;
+    height: 300px;
+    width: 300px;  
+        overflow: hidden;
+
+}
+
+img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+}
+p{
+    position:relative;
+    left: 0px;
+    top: 0px;
+    color: white;
+    transform: translateX(310px);
+    background-color: rgb(70, 68, 64);
+}
+
+img:hover ~ p{
+    transform: translateX(0px);
+    transition: all 0.3s ease;
+}
