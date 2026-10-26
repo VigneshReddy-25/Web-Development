@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+li a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    padding: 50px 250px;
+    align-items: center;
+}
+.hero p{
+    text-align: center;
+}
+body{
+    background: linear-gradient(to right,#DA2432,#7C4195);
+    color: white;
+}
+.icon i{
+    
+} 
