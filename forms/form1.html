@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="pink">
+    <center><h1>Student Registration Form</h1>
+    <form>
+        <table cellspacing="10" cellpadding="10">
+            <tr>
+                <td><label>Roll no.:</label></td>
+                <td><input type="text" style="width: 53%;" name="rollno" required/></td>
+            </tr>
+            <tr>
+                <td><label>Student Name:</label></td>
+                <td><input type="text" placeholder="First Name" name="first-name" required/>  -  <input type="text" placeholder="Last Name" name="last-name" required/></td>
+            </tr>
+            <tr>
+                <td><label>Father's Name:</label></td>
+                <td><input type="text" style="width: 53%;" name="father-name" required/></td>
+            </tr>
+            <tr>
+                <td><label>Date of Birth:</label></td>
+                <td><input type="text" placeholder="Day" style="width:7%;" name="day" required/> - <input type="text" style="width:11%;" placeholder="Month" name="month" required/> - <input type="text" style="width:11%;" placeholder="Year" name="year" required/>(DD/MM/YYYY)</td>
+            </tr>
+            <tr>
+                <td><label>Mobile no.:</label></td>
+                <td><input type="text" name="code" value="+91" style="width: 5%;" readonly required/> - <input type="text" style="width: 45%;" name="mobile" placeholder="Mobile Number" required/></td>
+            </tr>
+            <tr>
+                <td><label>Email id:</label></td>
+                <td><input type="email" style="width: 53%;" name="email" required/></td>
+            </tr>
+            <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" style="width: 53%;" name="password" required/></td>
+            </tr>
+            <tr>
+                <td><label>Gender:</label></td>
+                <td>
+                    <input type="radio" name="gender" value="male" required/> Male
+                    <input type="radio" name="gender" value="female" required/> Female
+                </td>
+            </tr>
+            <tr>
+                <td><label>Department:</label></td>
+                <td>
+                    <input type="checkbox" name="department" value="cse"/> CSE
+                    <input type="checkbox" name="department" value="it"/> IT
+                    <input type="checkbox" name="department" value="ece"/> ECE
+                    <input type="checkbox" name="department" value="me"/> Mech
+                    <input type="checkbox" name="department" value="civil"/> Civil
+                </td>
+            </tr>
+            <tr>
+                <td><label>Course:</label></td>
+                <td>
+                    <select style="width: 53%;" name="course" required>
+                        <option value="">------Select Current Course's------</option>
+                        <option value="btech">Bachelor of Technology</option>
+                        <option value="mtech">Master of Technology</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label>Student photo:</label></td>
+                <td><input type="file" name="photo" accept="image/*" required/></td>
+            </tr>
+            <tr>
+                <td><label>City:</label></td>
+                <td><input type="text" style="width: 53%;" name="city" required/></td>
+            </tr>
+            <tr>
+                <td><label>Address:</label></td>
+                <td><textarea style="width: 53%;height: 100px;" name="address" required></textarea></td>
+            </tr>
+        </table>
+        
+    </form>
+    </center>
+</body>
+</html>
