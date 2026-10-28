@@ -1,0 +1,21 @@
+#static{
+    position: static;
+    border: 2px solid red;
+}
+
+#relative{
+    position: relative;
+    border: 2px solid blue;
+    left: 20px;
+}
+
+#fixed{
+    position: fixed;
+    border: 2px solid green;
+    bottom: 0px;
+}
+#sticky{
+    position: sticky;
+    border: 2px solid orange;
+    bottom: 0px;
+}
