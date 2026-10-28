@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #333;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin: 5px 10px;
+    color: aliceblue;
+}
+.logo:hover{
+    cursor: pointer;
+    color: blue;
+
+}
+#nav{
+    /* display: flex;
+    justify-content: flex-end; */
+    
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px 0 0;
+}
+button:hover{
+    cursor: pointer;
+    color: blue;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    margin-left: 10px;
+}
