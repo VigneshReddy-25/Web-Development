@@ -1,0 +1,13 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: blue;
+    
+    align-items: end;
+}
+.grid-container div{
+    background-color: #f48c0d;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+}
