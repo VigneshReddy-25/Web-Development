@@ -1,0 +1,155 @@
+body{
+    background-color: rgb(33, 33, 33);
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 20px;
+}
+.logo{
+    display:flex;
+    align-items: center;
+}
+#h3-logo{
+    border:1px solid green;
+    padding: 5px;
+    margin:3px 25px;
+    margin-right: 0;
+    border-radius: 5px;
+    color: rgb(26, 241, 26);
+    font-weight: bold;
+
+}
+.nav-name{
+    padding: 0 25px;
+    margin: 0;
+}
+.name-nav, .p-nav{
+    margin: 0;
+}
+.nav-links a{
+    padding:  0 30px;
+    color: white;
+    text-decoration: none;
+}
+.nav-links a:hover{
+    color:rgb(48, 249, 48);
+    text-decoration: underline;
+}
+#about{
+    display: flex;
+    justify-content: space-around;
+}
+#about img{
+    height: 225px;
+    width:450px;
+    border-radius: 10px;
+}
+.about-text{
+    width: 500px;
+}
+.about-text h1{
+    font-weight: 600;
+}spe{
+    color: rgb(41, 245, 41);
+}
+.project-btn{
+    background-color: rgb(11, 183, 11);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.cv-btn{
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.wid{
+    background-color: rgb(24, 23, 23);
+}
+.card-container{
+    display: flex;
+}
+.cards{
+    background-color: rgb(62, 59, 59);
+    margin: 10px;
+    border-radius: 5px;
+}
+.cards h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+}
+.cards p{
+    text-align: center;
+}
+/* .cards icon i{
+    width:100px;
+    height: 100px;
+    margin: 150px;
+} */
+
+.mp{
+    text-align: center;
+}
+.project-container{
+    display:flex
+}
+.project-cards{
+    background-color: rgb(58, 55, 55);
+    margin: 10px;
+}
+.project-cards img{
+    height: 200px;
+    width: 400px;
+}
+.project-cards h2{
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.project-cards p{
+    margin-top: 0;
+    margin-left: 10px;
+}
+.project-btn1 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding: 5px 25px;
+    color: rgb(51, 193, 51);
+    background-color: rgb(58, 55, 55);
+    font-weight: 700;
+    border: 1px solid rgb(36, 188, 36);
+    border-radius: 5px;
+}
+#education{
+    padding: 10px;
+    background-color: rgb(60, 57, 57);
+}
+table{
+    width: 100%;
+}#education h2{
+    text-align: center;
+}
+th{
+    background-color: rgb(34, 163, 34);
+    font-weight: bold;
+    padding: 10px;
+}
+td{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
