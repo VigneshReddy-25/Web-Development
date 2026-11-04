@@ -1,0 +1,216 @@
+/* ================= HERO SECTION ================= */
+
+.hero-1 {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+
+/* ================= PHONE CAROUSEL ================= */
+
+.carousel-item img {
+    height: 420px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.hero-img {
+    margin-top: 0 !important;
+}
+
+#phoneCarousel {
+    position: relative;
+}
+
+
+/* ================= HERO TEXT ================= */
+
+.hero-text {
+    margin-top: 0 !important;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.hero-text p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+/* ================= COMMON CARD ================= */
+
+.card {
+    height: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12) !important;
+}
+
+
+/* ================= WHY CHOOSE US CARDS ================= */
+
+section .card {
+    background-color: #ffffff;
+}
+
+section .card .fs-1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #f1f5ff;
+}
+
+
+/* ================= BEST DEALS ================= */
+
+/* Product image area */
+
+.card-img-top {
+    height: 240px;
+    width: 100%;
+    object-fit: contain;
+    padding: 25px !important;
+}
+
+
+/* Product card body */
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Product title */
+
+.card-title {
+    min-height: 28px;
+}
+
+
+/* Product description */
+
+.card-body p {
+    min-height: 24px;
+}
+
+
+/* Rating */
+
+.text-warning {
+    letter-spacing: 2px;
+}
+
+
+/* Price */
+
+.card-body .fs-5 {
+    font-weight: 700;
+}
+
+
+/* Add to cart button */
+
+.card-body .btn {
+    margin-top: auto;
+}
+
+
+/* Discount badge */
+
+.badge {
+    font-size: 0.8rem;
+    padding: 8px 10px;
+    border-radius: 20px;
+}
+
+
+/* ================= SECTION HEADINGS ================= */
+
+section h2 {
+    font-size: 36px;
+}
+
+section > .text-center p,
+section > .d-flex p {
+    font-size: 17px;
+}
+
+
+/* ================= BUTTONS ================= */
+
+.btn {
+    border-radius: 8px;
+}
+
+.btn-primary {
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 991px) {
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 48px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    .hero-img {
+        margin: auto !important;
+    }
+
+    .card-img-top {
+        height: 220px;
+    }
+
+}
+
+
+/* ================= MOBILE ================= */
+
+@media (max-width: 576px) {
+
+    .hero-text h1 {
+        font-size: 38px;
+    }
+
+    .hero-text p {
+        font-size: 17px;
+    }
+
+    .carousel-item img {
+        height: 320px;
+    }
+
+    section h2 {
+        font-size: 30px;
+    }
+
+    .card-img-top {
+        height: 250px;
+    }
+
+}
+
