@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India's #1 Ride-hailing App</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg bg-white" aria-label="Offcanvas navbar large">
+            <div class="container">
+                <a href="#home"><img src="./Asserts/Radipo_Logo.png" alt="Rapido logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 contain">
+                            <li class="nav-item"><a class="nav-link active header-a" aria-current="page" href="#home">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Safety</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Careers</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Press</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                        </ul>
+                        <button class="btn header-btn" type="button">Download App</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Home Section -->
+        <section id="home">
+            <div class="container-hero col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-3">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="./Asserts/heroImage.png" class="d-block mx-lg-auto img-fluid hero-img"
+                            alt="Rapido ride" loading="lazy" />
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 hero-h1">
+                            India’s #1<br> Ride-hailing App
+                        </h1>
+                        <p class="lead">Quick, Affordable rides at your doorstep</p>
+                        <form class="hero-inp">
+                            <input type="text" name="pickup" placeholder="Enter Pickup Location">
+                            <input type="text" name="drop" placeholder="Enter Drop Location">
+                            <button type="button" class="hero-btn">Book Ride</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Services -->
+        <section class="services container-services py-5">
+            <h2 class="services-heading">Our Services</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-12 col-md-6 col-lg-4"><div class="service-card"><img src="./Asserts/BikeServices.png" alt="Bike-Taxi" class="ser-img"></div></div>
+                <div class="col-12 col-md-6 col-lg-4"><div class="service-card"><img src="./Asserts/AutoServices.png" alt="Auto" class="ser-img"></div></div>
+                <div class="col-12 col-md-6 col-lg-4"><div class="service-card"><img src="./Asserts/CabServices.png" alt="Cab" class="ser-img"></div></div>
+                <div class="col-12 col-md-6 col-lg-4"><div class="service-card"><img src="./Asserts/ParcelServices.png" alt="Parcel" class="ser-img"></div></div>
+                <div class="col-12 col-md-6 col-lg-4"><div class="service-card"><img src="./Asserts/TravelServices.png" alt="Travel and Stay" class="ser-img"></div></div>
+                <div class="col-12 col-md-6 col-lg-4"><div class="service-card"><img src="./Asserts/MetroServices.png" alt="Metro Ticket" class="ser-img"></div></div>
+            </div>
+        </section>
+
+        <!-- Offer -->
+        <section id="featured-3">
+            <div class="feature-container px-4 py-5">
+                <h2 class="pb-2 services-heading">What we offer</h2>
+                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                    <div class="feature col">
+                        <div class="featured-img"><img src="./Asserts/Featured-1.png" alt="Quick Pickup" class="feature-img"></div>
+                        <h3 class="fs-2 text-body-emphasis">Quick Pickup</h3>
+                        <p>Pickups within minutes that help you save time on every ride. A Rapido is always nearby when you need to get moving.</p>
+                    </div>
+                    <div class="feature col">
+                        <div class="featured-img"><img src="./Asserts/Featured-2.png" alt="Best Fares" class="feature-img"></div>
+                        <h3 class="fs-2 text-body-emphasis">Best Fares</h3>
+                        <p>Affordable prices designed for everyday rides. Travel more, spend less without compromising on comfort.</p>
+                    </div>
+                    <div class="feature col">
+                        <div class="featured-img"><img src="./Asserts/Featured-3.png" alt="Never Too Far" class="feature-img"></div>
+                        <h3 class="fs-2 text-body-emphasis">Never Too Far</h3>
+                        <p>Present across 400+ cities and counting. Wherever you go, find a Rapido ride close by.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Earn Banner -->
+        <div class="container-banner">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-6 banner-first">
+                    <img src="./Asserts/FooterBanner.png" class="banner-img" alt="Earn with Rapido">
+                </div>
+                <div class="col-12 col-lg-6 banner-second">
+                    <h2 class="banner-h1">Earn with<br>Rapido</h2>
+                    <p class="banner-text">Become a Rapido Captain. Ride when you want, work how you want, and earn on your own terms.</p>
+                    <button type="button" class="banner-btn">Start Earning →</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Download Section -->
+        <section class="download-section">
+            <div class="download-head">
+                <h2 class="download-title">Download Now</h2>
+            </div>
+            <div class="download-cards">
+                <img src="./Asserts/Download-1.png" class="download-img download-img-1" alt="Rapido - Bike-Taxi, Auto & Cabs">
+                <img src="./Asserts/Download-2.png" class="download-img download-img-2" alt="Rapido Captain - Drive & Earn">
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="site-footer">
+            <div class="footer-top">
+                <div class="footer-app">
+                    <h3 class="footer-heading">Customer app</h3>
+                    <a href="#"><img src="./Asserts/Footer-1.png" class="store-badge" alt="Google Play"></a>
+                    <a href="#"><img src="./Asserts/Footer-1.png" class="store-badge" alt="App Store"></a>
+                </div>
+                <div class="footer-app">
+                    <h3 class="footer-heading">Captain app</h3>
+                    <a href="#"><img src="./Asserts/Footer-2.png" class="store-badge" alt="Google Play"></a>
+                </div>
+                <ul class="footer-links footer-links-1">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Safety</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+                <ul class="footer-links footer-links-2">
+                    <li><a href="#">Customer Terms - Bike Taxi</a></li>
+                    <li><a href="#">Customer Terms - Cabs and Auto</a></li>
+                    <li><a href="#">Corporate Affairs</a></li>
+                    <li><a href="#">Captain Terms - Bike Taxi</a></li>
+                    <li><a href="#">Captain Terms - Cabs and Auto</a></li>
+                </ul>
+                <div class="footer-follow">
+                    <h3 class="footer-heading">Follow Us</h3>
+                    <div class="footer-social">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-divider"></div>
+            <p class="footer-copy">© 2026 Roppen Transportation. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
